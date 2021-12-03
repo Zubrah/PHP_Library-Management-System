@@ -35,25 +35,25 @@ require 'includes/db-inc.php';
       }
  }
 
-     if(isset($_POST['UpDat'])){
-		$id = sanitize(trim($_POST['id']));
-        $text = sanitize(trim($_POST['text']));
+    //  if(isset($_POST['UpDat'])){
+	// 	$id = sanitize(trim($_POST['id']));
+    //     $text = sanitize(trim($_POST['text']));
 
-        $sql_up = "UPDATE news set announcement = '$text' where newsId = '$id'";
-		echo mysqli_error($sql_up);
-         $result = mysqli_query($conn,$sql_del);
-                if ($result)
-                {
-                    echo "<script>
+    //     $sql_up = "UPDATE news set announcement = '$text' where newsId = '$id'";
+	// 	echo mysqli_error($sql_up);
+    //      $result = mysqli_query($conn,$sql_del);
+    //             if ($result)
+    //             {
+    //                 echo "<script>
             
            
-                   alert('Update successful');
+    //                alert('Update successful');
 
-         </script>";
-                }
+    //      </script>";
+    //             }
 
 
-     }
+    //  }
 
      if(isset($_POST['del'])){
 

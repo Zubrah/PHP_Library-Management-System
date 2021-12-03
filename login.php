@@ -96,13 +96,14 @@ if(isset($_POST['submit'])){
 					<div class="form-group">
 						<div class="col-sm-offset-2 col-sm-10">
 							<input type="submit" class="btn btn-info col-lg-4" name="submit" value="Sign In">
-								
 							
 						</div>
+						<div class="card-footer"><a href="register.php">Register</a></div>
 					</div>
 			
 					</div>
 				</form>
+
 			</div>
 		</div>
 	</div>

@@ -1,8 +1,8 @@
 <?php 
 	$host = "localhost";
 	$user = "root";
-	$pass = "";
-	$db = "library_db";
+	$pass = "112358";
+	$db = "security_task";
 
 	$conn = mysqli_connect($host, $user, $pass, $db);
 
